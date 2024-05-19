@@ -33,3 +33,10 @@ public class PlayingCard {
         return "Your Card is " + rank + " of " + suit;
     }
 }
+
+// The first step is to define a superclass called PlayingCard.
+// This class provides the basic attributes and methods that playing card should have.
+// It has two attributes, suit and rank.
+// Constructor is used to initializes attributes when a new card is created.
+// Getters and Setters are used to provide access to the suit and rank attributes.
+// Display Method returns a string representation of the card.

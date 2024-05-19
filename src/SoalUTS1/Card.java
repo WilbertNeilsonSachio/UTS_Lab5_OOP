@@ -19,9 +19,8 @@ public class Card extends PlayingCard  {
     public String display() {
         return getRank() + " of " + getSuit();
     }
-
-    @Override
-    public String toString() {
-        return display();
-    }
 }
+// Card class is a class that extends from PlayingCard class.
+// It has two constructors. One that initializes both suit and rank and an overloaded one.
+// Overrides the display method to provide a different string representation.
+// toString Method calls the overridden display method for consistent output.

@@ -38,3 +38,10 @@ public class Hand {
     }
 }
 
+// This class represents a player's hand of cards.
+// It has an ArrayList to hold the cards in the hand.
+// Constructor will initialize an empty hand.
+// AddCard Method is used to adds a Card to the hand.
+// GetCard Method retrieves a specific card from the hand by index.
+// Display Method returns a string listing all the cards in the hand.
+// toString Method calls the display method for easier access.

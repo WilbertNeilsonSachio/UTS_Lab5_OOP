@@ -25,3 +25,10 @@ public class Main {
         System.out.println(deck);
     }
 }
+
+// The Main class demonstrates how to use these classes together.
+// The program starts by creating a new Deck object, which automatically fills with 52 cards.
+// The shuffle method is called to randomize the order of cards.
+// An empty Hand object is created to hold the drawn cards.
+// Five cards are drawn from the deck and added to the hand.
+// The contents of the hand are displayed using the display method, which lists all the cards in the hand.
