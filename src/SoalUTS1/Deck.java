@@ -36,7 +36,7 @@ public class Deck {
 
     @Override
     public String toString() {
-        return "Deck of " + cards.size() + " cards";
+        return "Deck has " + cards.size() + " cards";
     }
 }
 
