@@ -11,25 +11,25 @@ public class PlayingCard {
     }
 
     // Setter and Getter for suit
-    public String getSuit() {
-        return suit;
-    }
-
     public void setSuit(String suit) {
         this.suit = suit;
     }
 
-    // Setter and Getter for rank
-    public String getRank() {
-        return rank;
+    public String getSuit() {
+        return suit;
     }
 
+    // Setter and Getter for rank
     public void setRank(String rank) {
         this.rank = rank;
     }
 
-    // Method to display card details
+    public String getRank() {
+        return rank;
+    }
+
+    // Method to display
     public String display() {
-        return rank + " of " + suit;
+        return "Your Card is " + rank + " of " + suit;
     }
 }
