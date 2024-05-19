@@ -17,6 +17,11 @@ public class Card extends PlayingCard  {
     //  Overriding display method from the superclass
     @Override
     public String display() {
-        return "Card: " + getRank() + " of " + getSuit();
+        return getRank() + " of " + getSuit();
+    }
+
+    @Override
+    public String toString() {
+        return display();
     }
 }
