@@ -1,5 +1,16 @@
 package SoalUTS4;
 
+/*
+Ohm’s Law is a fundamental principle in electrical engineering and physics,
+describing the relationship between voltage, current, and resistance in an electrical circuit.
+It states that the current through a conductor between two points is directly proportional to
+the voltage across the two points and inversely proportional to the resistance between them.
+
+Ohm’s Law can also be extended to include the concept of electrical power.
+Power in an electrical circuit is the rate at which electrical energy is converted
+to another form of energy, such as heat, light, or mechanical energy.
+ */
+
 import java.util.Scanner;
 
 public class OhmsLawCalculator {
@@ -14,7 +25,7 @@ public class OhmsLawCalculator {
         int choice = scanner.nextInt();
 
         switch (choice) {
-            case 1: // Calculate Voltage (V)
+            case 1: // Calculate Voltage
                 System.out.println("1. Known: Current (I) and Resistance (R)");
                 System.out.println("2. Known: Power (P) and Current (I)");
                 System.out.println("3. Known: Power (P) and Resistance (R)");
@@ -50,7 +61,7 @@ public class OhmsLawCalculator {
                 }
                 break;
 
-            case 2: // Calculate Current (I)
+            case 2: // Calculate Current
                 System.out.println("1. Known: Voltage (V) and Resistance (R)");
                 System.out.println("2. Known: Power (P) and Voltage (V)");
                 System.out.println("3. Known: Power (P) and Resistance (R)");
@@ -86,7 +97,7 @@ public class OhmsLawCalculator {
                 }
                 break;
 
-            case 3: // Calculate Resistance (R)
+            case 3: // Calculate Resistance
                 System.out.println("1. Known: Voltage (V) and Current (I)");
                 System.out.println("2. Known: Power (P) and Current (I)");
                 System.out.println("3. Known: Voltage (V) and Power (P)");
@@ -122,7 +133,7 @@ public class OhmsLawCalculator {
                 }
                 break;
 
-            case 4: // Calculate Power (P)
+            case 4: // Calculate Power
                 System.out.println("1. Known: Voltage (V) and Current (I)");
                 System.out.println("2. Known: Current (I) and Resistance (R)");
                 System.out.println("3. Known: Voltage (V) and Resistance (R)");
